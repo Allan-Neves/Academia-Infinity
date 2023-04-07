@@ -26,6 +26,7 @@ body {
 /* MENU - HEADER - NAV BAR */
 
 header {
+    margin-bottom: 15PX;
     width: 100%;
     height: 7vh;
     background-color: rgba(22, 22, 22, 0.2);
@@ -36,6 +37,7 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
     font-size: 1.8rem;
 }
 
@@ -44,6 +46,7 @@ header {
     letter-spacing: 0.7rem;
     cursor: pointer;
     transition: all 0.7S;
+    padding: 10px 0px;
 }
 
 .logo:hover {
@@ -55,6 +58,8 @@ header {
     display: flex;
     list-style: none;
     gap: 15px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .menu-content .list-itens a {
@@ -99,7 +104,10 @@ main {
 /* TEXTO CONTEÚDO PRINCIPAL */
 
 .primary-text {
-    width: 850px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 850px;
     font-size: 5rem;
     margin-bottom: 1.4rem;
     text-align: center;
@@ -138,3 +146,16 @@ button {
   button:active {
     transform: translateY(-1px);
   }
+
+@media screen and (max-width: 575px) {
+    .btn {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    button {
+        margin-bottom: 10px;
+    }
+}
