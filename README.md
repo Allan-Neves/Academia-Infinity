@@ -6,7 +6,7 @@ Esse é um código que eu fiz com o auxílio do tutorial da [CrisTech](https://w
 
 ## Demo
 
-[Clique aqui](https://allan-carlos.github.io/Academia-Infinity/) e você será redireciado para o site.
+[Clique aqui](https://allan-carlos.github.io/Academia-Infinity/) e você será redirecionado(a) para o site.
 
 ## Tecnologias Usadas
 
